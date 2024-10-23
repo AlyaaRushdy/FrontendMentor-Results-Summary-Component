@@ -39,8 +39,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [FrontendMentor](https://www.frontendmentor.io/solutions/mobile-first-responsive-solution-using-css-flexbox-and-tailwindcss-xdrO1lDC9m)
+- Live Site URL: [Netlify](https://fanciful-hotteok-83eaa2.netlify.app/)
 
 ## My process
 
