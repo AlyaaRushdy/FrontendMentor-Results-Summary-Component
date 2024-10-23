@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="stylesheet" href="./src/output.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="bg-white font-body font-medium relative">
+    <main
+      class="flex justify-center items-center -mt-6 md:m-0 text-lg leading-none min-h-screen"
+    >
+      <section
+        class="flex flex-col sm:flex-row shadow-lg rounded-3xl overflow-hidden"
+      >
+        <div
+          class="p-10 bg-gradient-to-b from-Light_slate_blue to-Light_royal_blue sm:w-[19rem] flex flex-col justify-center items-center text-center rounded-3xl"
+        >
+          <p class="text-Light_lavender font-medium mb-8">Your Result</p>
+          <div
+            class="rounded-full bg-gradient-to-b from-Violet_blue to-Persian_blue size-40 flex flex-col justify-center mb-8"
+          >
+            <h1 class="text-white font-extrabold text-6xl">76</h1>
+            <p class="text-Light_lavender/50 text-sm mt-2">of 100</p>
+          </div>
+
+          <h2 class="text-white text-2xl mb-4">Great</h2>
+          <p class="text-Light_lavender text-base leading-snug">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+
+        <div class="flex flex-col gap-5 p-10 min-w-80">
+          <h2 class="text-xl leading-none font-bold text-Dark_gray_blue">
+            Summary
+          </h2>
+
+          <div class="flex flex-col gap-3">
+            <p
+              class="w-full bg-Light_red/10 py-4 px-3 text-Light_red rounded-md flex justify-center items-center"
+            >
+              <img
+                src="./src/assets/images/icon-reaction.svg"
+                alt=""
+                class="me-2"
+              />
+              Reaction
+              <span class="ml-auto inline-block font-bold text-Dark_gray_blue">
+                80&nbsp;
+              </span>
+              <span class="text-Light_lavender font-bold">/ 100</span>
+            </p>
+
+            <p
+              class="w-full bg-Orangey_yellow/10 py-4 px-3 text-Orangey_yellow rounded-md flex justify-center items-center"
+            >
+              <img
+                src="./src/assets/images/icon-memory.svg"
+                alt=""
+                class="me-2"
+              />
+              Memory
+              <span class="ml-auto inline-block font-bold text-Dark_gray_blue"
+                >92&nbsp;</span
+              >
+              <span class="text-Light_lavender font-bold">/ 100</span>
+            </p>
+            <p
+              class="w-full bg-Green_teal/10 py-4 px-3 text-Green_teal rounded-md flex justify-center items-center"
+            >
+              <img
+                src="./src/assets/images/icon-verbal.svg"
+                alt=""
+                class="me-2"
+              />
+              Verbal
+              <span class="ml-auto inline-block font-bold text-Dark_gray_blue"
+                >61&nbsp;</span
+              >
+              <span class="text-Light_lavender font-bold">/ 100</span>
+            </p>
+            <p
+              class="w-full bg-Cobalt_blue/10 py-4 px-3 text-Cobalt_blue rounded-md flex justify-center items-center"
+            >
+              <img
+                src="./src/assets/images/icon-visual.svg"
+                alt=""
+                class="me-2"
+              />
+              Visual
+              <span class="ml-auto inline-block font-bold text-Dark_gray_blue"
+                >72&nbsp;</span
+              >
+              <span class="text-Light_lavender font-bold">/ 100</span>
+            </p>
+          </div>
+
+          <button
+            class="py-4 bg-Dark_gray_blue text-white rounded-full hover:bg-gradient-to-b from-Light_slate_blue to-Light_royal_blue"
+          >
+            Continue
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+
+    <footer class="absolute bottom-1 text-center text-[11px] w-full">
+      <p class="">
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          class="text-[hsl(228,45%,44%)]"
+        >
+          Frontend Mentor
+        </a>
+        . Coded by
+        <a
+          href="https://github.com/AlyaaRushdy"
+          class="text-[hsl(228,45%,44%)]"
+        >
+          Alyaa Ahmed </a
+        >.
+      </p>
+    </footer>
+  </body>
+</html>
